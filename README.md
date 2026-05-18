@@ -11,7 +11,7 @@ that prompt physics questions, followed by concrete analysis.
 
 ## Deployment
 The frontend is deployed at `phys-notes.netlify.app`.
-Content is authored and published via Sanity Studio at `?.sanity.studio`.
+Content is authored and published via Sanity Studio at `phys-notes.sanity.studio`.
 
 ## License
 [GPL-3.0](./LICENSE)
