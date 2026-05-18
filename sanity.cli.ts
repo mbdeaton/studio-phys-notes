@@ -3,10 +3,11 @@ import {defineCliConfig} from 'sanity/cli'
 export default defineCliConfig({
   api: {
     projectId: 'oph7176c',
-    dataset: 'production'
+    dataset: 'production',
   },
   deployment: {
-    appId: 'c6tcf2u7k88jbnkulqkmnju2',
+    appId: 'aneeagwo4uuzbady2qi3iy52',
     autoUpdates: true,
-  }
+  },
+  studioHost: 'phys-notes',
 })
