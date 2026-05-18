@@ -1,9 +1,17 @@
-# Sanity Clean Content Studio
+# Phys-Notes
+Brett Deaton
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+The content for a weekly photo blog: things spotted in nature
+that prompt physics questions, followed by concrete analysis.
 
-Now you can do the following things:
+## Tools
+- Vite + React — frontend framework
+- Sanity — headless CMS and content editor
+- Netlify — static hosting and deploys
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the Sanity community](https://www.sanity.io/community/join?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## Deployment
+The frontend is deployed at `phys-notes.netlify.app`.
+Content is authored and published via Sanity Studio at `?.sanity.studio`.
+
+## License
+[GPL-3.0](./LICENSE)
