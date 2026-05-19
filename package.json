@@ -1,9 +1,9 @@
 {
-  "name": "phys-notes",
+  "name": "studio-phys-notes",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
-  "license": "UNLICENSED",
+  "license": "GPL-3.0-only",
   "scripts": {
     "build": "sanity build",
     "deploy": "sanity deploy",
