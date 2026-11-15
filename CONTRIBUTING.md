@@ -3,7 +3,7 @@
 ## Two repos
 This project spans two codebases:
 
-- [phys-notes-studio](https://github.com/mbdeaton/studio-phys-notes):
+- [studio-phys-notes](https://github.com/mbdeaton/studio-phys-notes):
   the Sanity Studio (this repo)
 - [phys-notes](https://github.com/mbdeaton/phys-notes):
   the Vite/React frontend
