@@ -47,8 +47,33 @@ export const postType = defineType({
       type: 'array',
       title: 'Note',
       description:
-        'Link a mention to a figure using #<anchor>, for example #figure-1. The anchor must match a figure on this same post.',
-      of: [{type: 'block'}],
+        'Select a figure mention, add a Figure link annotation, and enter #<anchor>. The anchor must match a figure on this same post.',
+      of: [
+        defineArrayMember({
+          type: 'block',
+          marks: {
+            annotations: [
+              {
+                name: 'link',
+                type: 'object',
+                title: 'Figure link',
+                fields: [
+                  defineField({
+                    name: 'href',
+                    type: 'string',
+                    title: 'Figure anchor',
+                    description: 'Enter the matching anchor, including #, for example #fig-1.',
+                    validation: (rule) =>
+                      rule
+                        .required()
+                        .regex(/^#[a-z0-9]+(?:-[a-z0-9]+)*$/),
+                  }),
+                ],
+              },
+            ],
+          },
+        }),
+      ],
     }),
     defineField({
       name: 'figures',
